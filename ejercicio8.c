@@ -1,7 +1,7 @@
 /***********************************************************************************
 *   Autor: José Jesús Cepeda                                                       *
 *   Pontificia Universidad Javeriana                                               *
-*   Fecha: 30/10/2025                                                              *
+*   Fecha: 05 noviembre 2025                                                       *
 *   Materia: Sistemas Operativos                                                   *
 *   Docente: J. Corredor PhD                                                       *
 *   Tema:posix para la creacion de hilos concurrentes                              *
