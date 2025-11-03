@@ -1,10 +1,15 @@
-/*
-*   Autor: José Jesús Cepeda
-*   Pontificia Universidad Javeriana
-*   Materia: Sistemas Operativos
-*   Tema:
-*
-*/
+/************************************************************************************************
+*   Autor: José Jesús Cepeda                                                                    *
+*   Pontificia Universidad Javeriana                                                            *
+*   Materia: Sistemas Operativos                                                                *
+*   Fecha: 05 noviembre 2025                                                                    *
+*   Docente : J.Corredor PhD                                                                    *
+*   Tema: creacion y gestion de hilos concurrentes con exclusion mutua (mutex).                 *
+*   Descripcion del programa:                                                                   *
+*   Este programa demuestra como se crean hilos que comparten un recurso comun (contador).      *
+*   y como usar un mutex para garantizar que solo un hilo a la vez pueda modificarlo            *   
+*************************************************************************************************/
+
 
 #include <stdio.h>//biblioteca para funciones de entrada y salida
 #include <stdlib.h>

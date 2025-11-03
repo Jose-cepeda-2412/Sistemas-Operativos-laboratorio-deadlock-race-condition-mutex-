@@ -1,10 +1,16 @@
-/*
-*   Autor: José Jesús Cepeda
-*   Pontificia Universidad Javeriana
-*   Materia: Sistemas Operativos
-*   Tema:
-*
-*/
+/************************************************************************************************
+*   Autor: José Jesús Cepeda                                                                    *
+*   Pontificia Universidad Javeriana                                                            *
+*   Materia: Sistemas Operativos                                                                *
+*   Fecha: 05 noviembre 2025                                                                    *
+*   Docente : J.Corredor PhD                                                                    *
+*   Tema: Creacion y ejecucion de hilos concurrentes con la libreria posix (pthread)            *
+*   Descripcion del programa:                                                                   *
+*   Este programa muestra el uso de la biblioteca posix (pthread) para crear y ejecutar         *   
+*   multiples hilos de manera independientes, cada hilo imprime un mensaje y el proceso         *
+*   principal espera a que ambos finalicen utilizando pthread_join                              *
+*************************************************************************************************/
+
 #include <stdio.h>//biblioteca para funciones de entrada y salida
 #include <stdlib.h>//
 #include <pthread.h>//biblioteca para usar posix (ptrhead_t,pthread_create, pthread_join)

@@ -15,34 +15,36 @@
 
 # Compilador a usar
 GCC = gcc
-
-
+#bandera a usar
+FLAGS = -lpthread
 # Lista de programas a compilar
 PROGRAMAS = ejercicio1 ejercicio2 ejercicio3 ejercicio4 ejercicio5 ejercicio6 ejercicio7 ejercicio8
 
+#compilacion de programas uno a uno
 ejercicio1:
-	$(GCC) $(FLAGS) $@.c -o $@
+	$(GCC) $@.c -o $@ $(FLAGS)
 
 ejercicio2:
-	$(GCC) $(FLAGS) $@.c -o $@
+	$(GCC) $@.c -o $@ $(FLAGS)
 
 ejercicio3:
-	$(GCC) $(FLAGS) $@.c -o $@
+	$(GCC) $@.c -o $@ $(FLAGS)
 
 ejercicio4:
-	$(GCC) $(FLAGS) $@.c -o $@
+	$(GCC) $@.c -o $@ $(FLAGS)
 
 ejercicio5:
-	$(GCC) $(FLAGS) $@.c -o $@
+	$(GCC) $@.c -o $@ $(FLAGS)
 
 ejercicio6:
-	$(GCC) $(FLAGS) $@.c -o $@
+	$(GCC) $@.c -o $@ $(FLAGS)
 
 ejercicio7:
-	$(GCC) $(FLAGS) $@.c -o $@
+	$(GCC) $@.c -o $@ $(FLAGS)
 
 ejercicio8:
-	$(GCC) $(FLAGS) $@.c -o $@
+	$(GCC) $@.c -o $@ $(FLAGS)
 
+#limpieza de archivos compilados
 clean:
 	$(RM) $(PROGRAMAS)

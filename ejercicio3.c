@@ -3,6 +3,7 @@
 *   Pontificia Universidad Javeriana                                                            *
 *   Materia: Sistemas Operativos                                                                *
 *   Fecha: 05 noviembre 2025                                                                    *
+*   Docente : J.Corredor PhD                                                                    *
 *   Tema: Sincronización de hilos con mutex y variables de condicion(ptrhead_cond)              *
 *   Descripcion del programa:                                                                   *
 *   Este programa implementa hilos recurrentes que incrementan un contador global compartido,   *  

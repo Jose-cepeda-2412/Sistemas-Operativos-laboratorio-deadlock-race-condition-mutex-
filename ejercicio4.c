@@ -3,6 +3,7 @@
 *   Pontificia Universidad Javeriana                                                      *
 *   Materia: Sistemas Operativos                                                          *
 *   Fecha: 05 noviembre 2025                                                              *
+*   Docente : J.Corredor PhD                                                              *
 *   Tema: Creacion y sincronizacion de hilos usando mutex(pthread)                        *
 *   Descripcion:                                                                          *
 *   Este programa crea tres hilos concurrentes que ejecutan una misma funcion (compute)   *
