@@ -8,7 +8,8 @@
 *   Descripcion: se tiene 2 funciones para asignar y reportar en                   *
 *                funcion de la llamada desde los hilos creados, desde el proceso   *
 *                principal (main)                                                  *
-*   El hilo asignar modifica el valor de una variable global y                     *
+*   El hilo asignar modifica el valor de una variable global y envia una señal     *
+*   para que el hilo reportar imprima el valor actualizado de forma sincronizada   *
 ************************************************************************************/
 
 #include <stdio.h>//biblioteca para funciones de entrada y salida
